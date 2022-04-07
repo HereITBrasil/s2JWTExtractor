@@ -1,0 +1,32 @@
+{
+  "name": "s2jwtextractor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec **/index.js",
+    "watch": "./node_modules/.bin/grunt watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:s2way/s2jwtextractor.git"
+  },
+  "author": "Newborns",
+  "license": "ISC",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-nodeunit": "^1.0.0",
+    "grunt-contrib-uglify": "^3.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-mocha-test": "^0.13.3",
+    "load-grunt-tasks": "^3.5.2",
+    "mocha": "^3.2.0",
+    "sinon": "^4.0.1"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.1.0",
+    "is-empty": "^1.2.0"
+  }
+}

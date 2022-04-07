@@ -1,0 +1,10 @@
+image: node:6
+pipelines:
+    default:
+        - step:
+            image: node:6
+            script:
+                - npm install
+                - npm test
+options:
+    docker: true
